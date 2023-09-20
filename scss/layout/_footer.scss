@@ -1,0 +1,87 @@
+.footer{
+	background: url(../images/footer.png) no-repeat center;
+	background-size: cover;
+	color: $white;
+	padding-top: 80px;
+
+	.title{
+		text-align: left;
+		width: 100%;
+	}
+	.sub-title{
+		top:27px;
+		&:before{
+			background: linear-gradient(88deg, #f7f7f7 -23.38%, rgba(3, 120, 216, 0) 383.9%);
+		}
+		&:after{
+		 background: $white;	
+		}
+	}
+	.first{
+		.sub-title{
+			left: 10px;
+			@media(max-width: 1440px){
+				left: 31px;
+			}
+		}
+
+	}
+	.second, .four{
+		.sub-title{
+			left: 36px;
+			@media(max-width: 1440px){
+				left: 59px;
+			}
+		}
+
+	}
+
+	.third{
+		.sub-title{
+			left: 60px;
+			@media(max-width: 1440px){
+				left: 80px;
+			}
+		}
+
+	}
+li{
+	padding-bottom: 15px;
+	span{
+		padding-right: 10px;
+		}
+		a{
+			color: $gray-dark;
+		}
+	}
+	
+.social-link{
+	margin-top: 20px;
+	ul{
+		display: flex;
+
+	}
+
+	a{
+		background: rgba(116, 115, 119, 0.53);
+		width:30px;
+		height: 30px;
+		display:block;
+		border-radius: 50%;
+		text-align: center;
+		padding-top: 5px;
+		color: $white
+	}
+}
+.text-content	{
+	color: $gray-dark;
+}
+}
+.copy{
+	text-align: center;
+	padding: 40px 0 30px;
+	margin-top: 30px;
+	p{
+		color: $gray-dark;
+	}
+}

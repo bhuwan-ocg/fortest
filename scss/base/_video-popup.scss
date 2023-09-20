@@ -1,0 +1,120 @@
+.video{
+    position: relative;
+    a{
+        z-index: 5;
+        i{
+            color:$drak-blue;
+            aspect-ratio: 1/1;
+            border:1px solid ;
+            border-radius: 50%;
+            padding: 1.5rem;
+            font-size: 20px;
+        }
+    
+  }
+  h3{
+    color: $white;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+  .fade:not(.show) {
+     opacity: 1 !important; 
+}
+  #video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 70%;
+    left: 45%;
+    margin-left: -30%;
+    top: 15%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+      .waves {
+          position: absolute;
+          width: 143px;
+          height: 150px;
+          background:#aedeed;
+          opacity: 0;
+          border-radius: 100%;
+          left: -46px;
+          bottom: -52px;
+          z-index: -1;
+          animation: waves 3s ease-in-out infinite;
+        }          
+        .wave-1 {
+          animation-delay: 0s;
+        }
+        .wave-2 {
+          animation-delay: 1s;
+        }
+        .wave-3 {
+          animation-delay: 2s;
+        }
+    }
+    .vpop{
+      i{
+        background:$drak-blue;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: $white;
+        text-align: center;
+        padding-top: 12px;
+        font-size: 25px;
+
+      }
+    }

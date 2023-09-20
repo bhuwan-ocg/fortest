@@ -1,0 +1,60 @@
+.contact{
+	.title-left{
+	  .sub-title{
+	  	left: 17%;
+	  }	
+	}
+}
+
+.contact-address{
+	gap:26px;
+	margin-top: 30px;
+
+	.phone{
+		span{
+			background: $drak-blue;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			padding: 20px 20px;
+			color: $white;
+			font-size: 30px;
+		}
+	}
+	
+}
+
+.message{
+	background: url(../images/team.png) no-repeat center;
+	background-size: cover;
+	padding: 80px 40px;
+	.form-control{
+		border:0;
+		padding: 20px 15px;
+		color: $praraph;
+	}
+	.send-bottom{
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+		.btn-primary{
+			width:200px;
+		}
+	}
+}
+.benefit-ocg{
+	background:#F9F9F9;
+	@include flex-between;
+	padding: 15px;
+	border-radius: 6px; 
+	span{
+		font-size: 24px;
+		color: $drak-blue;
+	}
+}
+.faq-wrap{
+ .wrap{
+ 	display: flex;
+ 	gap:20px;
+ }
+}

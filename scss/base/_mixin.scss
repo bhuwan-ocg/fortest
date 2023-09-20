@@ -1,0 +1,52 @@
+@mixin flex-center {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-between {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-item {
+    display: flex;    
+   align-items: center;
+}
+@mixin flex-item1 {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin background-gradient {
+  background: linear-gradient(265.73deg, #21668D -2.64%,
+     rgba(18, 142, 195, 0.907564) 32.58%, rgba(91, 152, 175, 0.429019) 99.46%,
+      rgba(97, 211, 255, 0.649152) 108.44%, rgba(8, 169, 230, 0) 108.44%,
+       rgba(8, 169, 230, 0.846915) 108.44%)!important;   
+}
+@mixin feature-item-animation{
+  transform: translatey(0px);
+    -webkit-animation: float 6s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
+    transition: all 0.35s ease-in-out;
+    width: 65px;
+    height: 65px;  
+}
+@mixin about-image-animation {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@mixin absolute-center {
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+@mixin font-family {
+	font-family: 'Montserrat', sans-serif;
+}

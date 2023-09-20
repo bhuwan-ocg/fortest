@@ -1,0 +1,101 @@
+.projects-wrap{
+  .card{
+    border-radius: 4px;
+    background: var(--White, #FFF);
+   box-shadow: 0px 0px 20px 0px rgba(180, 183, 186, 0.25);
+   padding: 70px 20px;
+   text-align: center;
+   margin-bottom: 40px;
+  img{
+     width: auto;
+  }
+  }
+  .content-text {
+    box-shadow: 0px 0px 4px 0px rgba(174, 168, 168, 0.25);
+    border-radius: 17px;
+    border-left: 4px solid var(--dark-blue, #0F3E6E);
+    background: #fff;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+}
+.list-project-ensure{
+  li{
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #181818;
+  }
+  span{
+    font-size: 22px;
+    color: $drak-blue;
+    padding-right: 10px;
+  }
+}
+.text-content{
+ color: $praraph;
+}
+.card_body{
+  h4{
+    font-size: 16px;
+    text-align: center;
+  }
+}
+.single---project{
+  .athour{
+  display: flex;
+  justify-content: space-between;
+  span{
+    font-size: 40px;
+    color: #D5E1ED;
+
+  }
+}
+.botton-tag{
+  i{
+    font-size: 24px;
+    color: $drak-blue;
+  }
+}
+.card-body{
+  padding-bottom: 20px;
+}
+.play-store{
+  padding-top: 20px;
+  a{
+    border:none;
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+}
+.card-project{
+  li{
+     a{
+    border:0;
+    width: auto;
+    padding: 0;
+  }
+  }
+ 
+  span{
+    color: $praraph
+  }
+  li{
+    padding-top: 15px;
+  }
+  .btn-primary{
+    width: 190px;;
+    margin: 5px;
+  }
+}
+.tags{
+  .card-body_1 {
+  padding: 25px 20px 8px;
+}
+}
+}
