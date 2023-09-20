@@ -25,6 +25,10 @@
       width: 100%;
       background:$drak-blue; 
       border-radius: 10px;
+      position: absolute;
+      z-index: -1;
+      color: $white;
+      content: "";
 
     }
   } 
@@ -40,3 +44,11 @@
     border:0;
   }
 }
+/*.btn-primary:hover::after {
+     width: 100%;
+      background:$drak-blue; 
+      border-radius: 10px;
+      position: absolute;
+      z-index: -1;
+      color: $white;
+}*/
