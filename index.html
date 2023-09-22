@@ -50,12 +50,12 @@
               <li><a href=""><i class="fab fa-twitter"></i></a></li>
             </ul>
           </div>
-          <div class="menu d-flex">
-            <ul class="d-flex  ">
-              <li><a class="active" href="">Home</a></li>
+          <div class="menu menu-top d-flex ">
+            <ul class="d-flex  align-items-center">
+              <li><a class="active" href="index.html">Home</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="service.html">Services</a></li>
-              <li><a href="">Projects</a></li>
+              <li><a href="project.html">Projects</a></li>
               <li><a href="team.html">Team</a></li>
               <li><a href="blog.html">Blog</a></li>
               <li><a href="faq.html">FAQ</a></li>
@@ -64,11 +64,50 @@
             <a class="btn btn-primary" href="contact.html">Get A Quote</a>
           </div>
       </div>
- 
-    
   </header>
 
+<!-- Side Menu -->
+<div class="page-header">
+  <div class="container">
+    <div class="main-nav">
+      <nav class="navbar">
+        <div class="wrap">
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <button aria-label="Open Mobile Menu" class="open-mobile-menu fa-lg">
+             <i class="fas fa-bars"></i>
+            </button>
+       </div>
+       <div class="top-menu-wrapper menu">
+          <ul class="top-menu">
+            <a class="logo_top mt-4" href="index.html"><img src="images/logo.png" alt=""></a>
+            <li class="mob-block">
 
+              <button aria-label="Close Mobile Menu" class="close-mobile-menu fa-lg">
+               <i class="fas fa-times"></i>
+              </button>
+             
+            </li>
+             <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="faq.html">FAQ</a></li> 
+              <li class="social-link ">
+                <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li><a class="btn btn-primary" href="contact.html">Get A Quote</a></li>
+          </ul>
+        
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
 
 
 <div class="cursor"></div>
@@ -144,7 +183,7 @@
   <div class="container">
     <div class="fullWidth eight columns">
         <div class="projectFactsWrap row g-0">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
               <div class="icon">
                <i class="fas fa-users"></i>
@@ -156,7 +195,7 @@
                </div> 
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="item item2 wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
                 <div class="icon">
                   <i class="fas fa-check"></i>
@@ -477,9 +516,20 @@
         
         <nav>
           <div class="nav nav-tabs shadow mb-3" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="images/project1.png" alt=""></button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="images/project2.png" alt=""></button>
-            <button class="nav-link last-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="images/project2.png" alt=""></button>
+             <div class="owl-carousel owl-project  owl-theme">
+                <div class=" slide slide-1 slider-item fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay:" >
+                   <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="images/project1.png" alt=""></button>
+                </div>
+                 <div class=" slide slide-1 slider-item fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay:" >
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="images/project2.png" alt=""></button>
+                </div>
+                <div class=" slide slide-1 slider-item fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay:" >
+                     <button class="nav-link last-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="images/project2.png" alt=""></button>
+                </div>
+              </div>
+           
+           
+           
           </div>
         </nav>
         <div class="tab-content " id="nav-tabContent">
@@ -489,7 +539,7 @@
 
                    <div class="vpop " data-type="vimeo" data-id="172052320" data-autoplay='true'>
                       <div class="text-center"><i class="fa-solid fa-play"></i></div>
-                     <h3 class="pt-2">We provide Awesome services for your success</h3>
+                     <h3 class="pt-5">We provide Awesome services for your success</h3>
                     <div class="waves wave-1"></div>
                     <div class="waves wave-2"></div>
                     <div class="waves wave-3"></div>
@@ -699,7 +749,7 @@
           <h2>How We Works?</h2>
        </div>
        <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="work-item-style1">
             <div class="inbox">
               <div class="icon-box">
@@ -714,7 +764,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="work-item-style1">
             <div class="inbox">
               <div class="icon-box">
@@ -730,7 +780,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="work-item-style1">
             <div class="inbox">
               <div class="icon-box">
@@ -746,7 +796,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="work-item-style1">
             <div class="inbox">
               <div class="icon-box">
@@ -863,7 +913,7 @@
        <h2>Blog & Articles</h2>
     </div>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
          <div class="card-image">
             <figure>
@@ -880,7 +930,7 @@
 
        </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
          <div class="card-image">
             <figure>
@@ -897,7 +947,7 @@
 
        </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 ">
         <div class="card">
          <div class="card-image">
             <figure>
@@ -979,7 +1029,7 @@
         <ul class="pt-3">
           <li><a href="team.html"><span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>Teams</a></li>
           <li><a href="service.html"><span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>Services</a></li>
-         <li><a href=""><span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>Private Policy</a></li>
+         <li><a href="private-policy.html"><span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>Private Policy</a></li>
           <li><a href="contact.html"><span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>Contact Us</a></li>
           <li><a href="term-condition.html"><span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>Term and Condition</a></li>
          

@@ -81,11 +81,17 @@ li{
 
 .section-gutter{
     margin-top: 5.375rem !important; //70px
+    @media(max-width: 1024px){
+        margin-top: 4.375rem!important;
+    }
 }
 .title{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    @media(max-width: 480px){
+        width: 100%;
+    }
     .sub-title{
         position: relative;
         left: 14%;
@@ -94,6 +100,15 @@ li{
         margin: 0 auto;
         @media(max-width: 1440px){
             left: 15%;
+        }
+        @media(max-width: 1200px){
+            left: 21%;
+        }
+        @media(max-width:991px){
+            left: 27%;
+        }
+         @media(max-width:1199px){
+            display:none;
         }
         &:before{
             position: absolute;
@@ -123,7 +138,18 @@ li{
         }
         h2{
           width: 50%;
-         margin: 0 auto;  
+         margin: 0 auto;
+           @media(max-width: 1200px) {
+            width: 68%;
+            font-size:1.7rem;
+         }
+         @media(max-width: 991px) {
+            width: 80%;
+         }
+          @media(max-width: 767px) {
+            width: 100%;
+            font-size:1.7rem;
+         }
         }
         h6{
             color: $gary-light-color;
@@ -136,10 +162,19 @@ li{
         h2{
             margin: 0;
             width: 80%;
+            @media(max-width: 480px){
+                width: 100%;
+            }
         }
         .sub-title{
             width: auto;
             left: 9%;
+            @media(max-width: 991px){
+                left: 17%;
+            }
+             @media(max-width: 1199px){
+                display:none;
+            }
         }
     }
 

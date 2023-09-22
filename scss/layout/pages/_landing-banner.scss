@@ -5,11 +5,20 @@
 }
 .banner{
 	position: relative;
+	@media(max-width: 767px){
+		padding-bottom: 39px;
+	}
 	.owl-item{
 	  .image{
 		img{
 			height: 700px;
 			object-fit: cover;
+			@media(max-width: 768px){
+				height: 350px;
+			}
+			@media(max-width: 991px){
+				height: 465px;
+			}
 		}
 	}	
 	}
@@ -22,9 +31,27 @@
 	@media(max-width: 1440px){
 		width: 47%;
 	}
+	@media(max-width: 575px){
+		width: 100%;
+	}
 	h1{
 		color: white;
 		font-size: 40px;
+		@media(max-width: 1440px){
+			font-size: 35px;
+		}
+		@media(max-width: 1170px){
+			font-size: 30px;
+		}
+		@media(max-width: 991px){
+			font-size: 26px;
+		}
+		@media(max-width: 768px){
+			font-size: 22px;
+		}
+		@media(max-width: 600px){
+			font-size: 20px;
+		}
 	}
 	.sub-title{
 		border-radius: 6px;
@@ -37,16 +64,39 @@
         @media(max-width: 1440px){
         	width: 40%;
         }
+        @media(max-width: 1170px){
+        	width: 45%;
+        }
+      @media(max-width: 1170px){
+        	width: 55%;
+        }
+        @media(max-width: 991px){
+        	width: 65%;
+        }
+    @media(max-width: 767px){
+        	width: 70%;
+        }
 
-
+    @media(max-width: 650px){
+        	width: 50%;
+        }
+        @media(max-width: 440px){
+        	width: 60%;
+        }
 	}
 }
 .owl-theme .owl-nav.disabled+.owl-dots{
 	position: absolute;
     z-index: 9999;
     left: 50%;
-    bottom: 23%;
-
+    bottom: 12%;
+    @media(max-width: 600px){
+     left: 47%;
+    bottom: 3%;	
+    }
+ @media(max-width: 600px){
+ 	bottom:1%;
+ }
 
 }
 .owl-theme {
@@ -60,6 +110,10 @@
 			span{
 				width: 15px;
 				height: 15px;
+				@media(max-width: 600px){
+					width: 10px;
+					height: 10px;
+				}
 			}
 		}
 	}
@@ -68,6 +122,9 @@
 }
 .more-bottom{
 	margin-top: 54px;
+	@media(max-width: 600px){
+		margin-top: 24px;
+	}
 }
 
 .owl-carousel{
@@ -86,6 +143,9 @@
 		max-width: 100%;
 		height: auto;
 		width: 120px;
+		@media(max-width: 991px){
+			display: none;
+		}
 	}
 }
 .head-phone{
@@ -102,6 +162,9 @@
 		width: 250px;
 		max-width: 100%;
 		height: auto;
+		@media(max-width: 600px){
+			display: none;
+		}
 	}
 }
 	 }

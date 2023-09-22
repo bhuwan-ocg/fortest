@@ -43,6 +43,9 @@
     background:none;
     border:0;
   }
+  @media(max-width: 600px){
+    display:none;
+  }
 }
 /*.btn-primary:hover::after {
      width: 100%;

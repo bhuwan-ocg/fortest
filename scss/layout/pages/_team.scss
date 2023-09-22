@@ -81,6 +81,13 @@
 }
 .team-info{
   position: relative;
+  @media(max-width: 991px){
+    box-shadow: 0px 9px 60px rgba(8, 20, 44, 0.07);
+    border: 1px solid #e3e8f4;
+    border-radius: 15px;
+    text-align: center;
+    padding: 45px 0 70px;
+  }
   figure{
     img{
       width: auto;
@@ -88,14 +95,23 @@
   }
   .exp{
     position: absolute;
-    right: 15%;
+    right: -15px;
     top: 38%;
     rotate: 270deg;
     background: $drak-blue;
     color: $white;
     padding: 10px 10px;
     @media(max-width: 1440px){
-      right: 1%;
+      right: -3%;
+    }
+    @media(max-width: 1399px){
+      right: -20%;
+    }
+     @media(max-width: 1199px){
+      right: -19%;
+    }
+     @media(max-width: 991px){
+      display:none;
     }
   }
   .social-link-icon{
@@ -105,21 +121,46 @@
       border-radius: 4px;
       background: var(--White, #FFF);
       box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-      width: 27%;
+      width: 37%;
       padding: 8px 10px;
       position: absolute;
-      right: 245px;
+      right: 134px;
       bottom: -16px;
       @media(max-width: 1440px){
         width: 33%;
         right: 155px;
       }
+       @media(max-width: 1399px){
+           width: 42%;
+          right: 59px;
+        }
+        @media(max-width: 1199px){
+           width: 42%;
+          right: 65px;
+        }
+         @media(max-width: 991px){
+          width:auto;
+          right: 153px;
+          bottom:6px;
+        }
+         @media(max-width: 440px){
+          width:auto;
+          right: 116px;
+        }
+        @media(max-width: 375px){
+          width:auto;
+          right: 80px;
+        }
       a{
         color: $drak-blue;
         font-size: 20px;
       }
       li{
-        padding-right: 15px;
+        padding-right: 22px;
+        @media(max-width: 1440px){
+          padding-right: 12px;
+        }
+       
       }
     }
   }
@@ -130,13 +171,21 @@
   }
   .title-left {
     .sub-title{
-      left: 36%;
+      left: 33%;
       @media(max-width: 1440px){
-        left: 42%;
+        left: 31%;
+      }
+      @media(max-width: 1399px){
+        left: 38%;
+      }
+      @media(max-width: 1199px){
+        left: 53%;
       }
     }
   }
-
+h6{
+  margin-top: 20px;
+}
 }
  .exp-detail{
     .text-contain{

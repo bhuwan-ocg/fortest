@@ -1,8 +1,15 @@
 .contact{
 	.title-left{
 	  .sub-title{
-	  	left: 17%;
+	  	left: 18%;
+	  	@media(max-width: 1199px){
+	  		left: 24%;
+	  	}
 	  }	
+	}
+
+	img{
+		max-width: 100%;
 	}
 }
 
@@ -41,6 +48,16 @@
 			width:200px;
 		}
 	}
+	.title{
+		.sub-title{
+			left: 12%;
+			@media(max-width: 1199px){
+				left: 15%;
+			}
+		}
+	}
+
+	
 }
 .benefit-ocg{
 	background:#F9F9F9;
@@ -56,5 +73,19 @@
  .wrap{
  	display: flex;
  	gap:20px;
+ 	@media(max-width: 991px){
+ 		display: block;
+ 		text-align: center;
+ 	}
  }
+}
+.benifit-feture{
+.title {
+	.sub-title{
+		left: 12%;
+		@media(max-width: 1199px){
+			left: 17%;
+		}
+	}
+}
 }

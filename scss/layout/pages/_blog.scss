@@ -8,9 +8,17 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     padding: 20px 30px;
     margin-top: 20px;
+    @media(max-width: 991px){
+    	display: block;
+    	text-align: center;
+    }
 	gap:45px;
 	.image{
 		width: 30%;
+		@media(max-width: 991px){
+			margin: 0 auto;
+		}
+
 		img{
 			border-radius: 50%;
 		}
@@ -25,6 +33,14 @@
 	}
 }
 .single--blog{
+
+ .first-image{
+ 	@media(max-width: 991px){
+ 		margin-bottom: 20px!important;
+ 	}
+ 	
+ }
+
 
 	.form-control{
 		border: 0;
@@ -76,6 +92,10 @@
 	ul{
 		display: flex;
 		gap:20px;
+		@media(max-width: 1199px){
+			justify-content: center;
+			align-items: center;
+		}
 	}
 	li{
 		background: $white;
@@ -83,6 +103,9 @@
 		width: 120px;
 		text-align: center;
 		padding: 10px 10px;
+		@media(max-width: 1199px){
+			width: 230px;
+		}
 	}
 }
 
