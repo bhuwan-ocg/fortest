@@ -359,13 +359,3 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
   //   });
   // });
   
-
- 
-   
-
-
-    
-
-
-
-

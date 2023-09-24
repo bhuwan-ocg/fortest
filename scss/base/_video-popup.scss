@@ -18,6 +18,11 @@
   }
   img{
     width: 100%;
+    transition: all 0.5s;
+    transform: scale(1);
+    &:hover{
+      transform: scale(1.07);
+    }
   }
   .fade:not(.show) {
      opacity: 1 !important; 
@@ -29,8 +34,12 @@
     width: 70%;
     left: 45%;
     margin-left: -30%;
-    top: 15%;
+    top: 24%;
     background-color: #fff;
+    @media(max-width: 767px){
+      top:34%;
+    }
+   
   }
   
   #video-popup-close {
@@ -91,18 +100,14 @@
           opacity: 0;
           border-radius: 100%;
           left: 186px;
-          bottom: 26px;
+          bottom: -6px;
           z-index: -1;
+
           @media(max-width: 1024px){
             display: none;
           }
           animation: waves 3s ease-in-out infinite;
-          @media(max-width: 768px){
-            left: 110px;
-            bottom: 70px;
-            width: 123px;
-            height: 120px;
-          }
+         
         }          
         .wave-1 {
           animation-delay: 0s;

@@ -240,7 +240,12 @@
     }
     .images{
           img{
-        border-radius: 10px
+        border-radius: 10px;
+        transition: all 0.5s;
+        transform: scale(1);
+        &:hover{
+          transform: scale(1.07);
+        }
 
     }
     }
@@ -250,6 +255,13 @@
     position: absolute;
    left: 18%;
     top: 41%;
+    img{
+      transition: all 0.5s;
+    transform: scale(1);
+    &:hover{
+      transform: scale(1.07);
+    }
+    }
     @media(max-width: 1860px){
       left: 11%;
     }
@@ -711,6 +723,12 @@
     position: relative;
     img{
         border-radius: 6px;
+        width: 100%;
+    transition: all 0.5s;
+    transform: scale(1);
+    &:hover{
+      transform: scale(1.07);
+    }
     }
 .content-text{
     background: $drak-blue;
@@ -1215,6 +1233,14 @@ color: $white;
       @media(max-width: 991px){
         text-align: center;
       }
+      img{
+        width: 100%;
+    transition: all 0.5s;
+    transform: scale(1);
+    &:hover{
+      transform: scale(1.07);
+    }
+      }
     }
   }
   .card-body{
@@ -1224,6 +1250,7 @@ color: $white;
     width: 90%;
     margin: 0 auto;
     margin-top: -100px;
+    z-index: 22;
     @media(max-width: 991px){
       width: auto;
     }
