@@ -94,6 +94,10 @@
     transition: all 300ms ease;
     z-index: 2;
     min-height: 460px;
+    @media(max-width: 1440px){
+      padding: 45px 20px 45px;
+      min-height: 460px;
+    }
 
     &:hover {
       background: $drak-blue;
@@ -228,6 +232,9 @@
     position: absolute;
     right: 0;
     top: 0;
+    @media(max-width: 1440px){
+      width: 45%;
+    }
 
     @media (max-width: 768px) {
       width: 62%;
@@ -267,12 +274,9 @@
     left: 6%;
   }
 
+
   @media (max-width: 1440px) {
-    left: 9%;
-    width: 34%;
-  }
-  @media (max-width: 1440px) {
-    left: 5%;
+    left: 10%;
     width: 34%;
   }
   @media (max-width: 991px) {
@@ -347,6 +351,7 @@
     }
     li {
       padding-bottom: 15px;
+      display: flex;
     }
   }
   .more-bottom {
@@ -397,6 +402,7 @@
     padding-bottom: 70px;
     width: 87%;
     min-height: 392px;
+    padding: 10px;
     &:after {
       position: absolute;
       left: 100%;
