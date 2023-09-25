@@ -91,6 +91,7 @@
      -webkit-transition: all 300ms ease;
      transition: all 300ms ease;
      z-index: 2;
+     min-height: 460px;
     
      &:hover{
         background:$drak-blue;
@@ -403,6 +404,7 @@
         border:0;
         padding-bottom: 70px;
         width: 87%;
+        min-height: 392px;
         &:after{
         position: absolute;
         left: 100%;
