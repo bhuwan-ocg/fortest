@@ -157,7 +157,7 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
     --------------------------------------------------------------*/
     if ($(window).width() > 1) {
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 1) {
+            if ($(this).scrollTop() > 130) {
                 $('.menu').addClass("sticky-header");
                 $('body').addClass('sticky');
             } else {
