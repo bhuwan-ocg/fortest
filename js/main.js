@@ -183,7 +183,8 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
     responsiveClass: true,
     dots: true,
     autoplay: true,
-    autoplayTimeout: 10000,
+    autoplaySpeed: false,
+    autoplayTimeout: 20000,
     responsive: {
       1400: {
         items: 1,
