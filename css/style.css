@@ -7965,6 +7965,9 @@ li {
   transform: translate(calc(-50% + 15px), -50%);
   z-index: 999999;
   cursor: pointer; }
+  @media (hover: none) and (pointer: coarse) {
+    .cursor {
+      display: none; } }
 
 .cursor2 {
   width: 20px;
@@ -7977,6 +7980,9 @@ li {
   pointer-events: none;
   transition: width .3s, height .3s, opacity .3s;
   z-index: 999999; }
+  @media (hover: none) and (pointer: coarse) {
+    .cursor2 {
+      display: none; } }
 
 .breadcrumb {
   justify-content: center;
