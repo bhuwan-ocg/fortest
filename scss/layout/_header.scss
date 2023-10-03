@@ -99,6 +99,10 @@
   .logo{
     text-align: center;
     margin-top: 55px;
+    
+    img {
+      height: 46px;
+    }
     @media(max-width: 991px){
       display: none;
     }

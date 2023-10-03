@@ -30,6 +30,10 @@
 }
 .team{
 	.card{
+    img {
+      height: 383px;
+      object-fit: cover;
+    }
 		&:hover{
 			.link-page{
 				display:block;
