@@ -1290,6 +1290,7 @@
   align-items: center;
   justify-content: center;
   img {
+    height: 46px;
     @media (max-width: 768px) {
       display: none;
     }
@@ -1330,5 +1331,14 @@
   }
   @media (max-width: 1199px) {
     left: 27%;
+  }
+}
+
+.projects {
+  .owl-item {
+    img {
+      height: 46px;
+      width: auto;
+    }
   }
 }

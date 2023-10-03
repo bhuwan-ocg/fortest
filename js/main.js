@@ -139,7 +139,7 @@ function resizingComplete() {
 
 $('#number1').jQuerySimpleCounter({end: 5,duration: 3000});
 $('#number2').jQuerySimpleCounter({end: 4,duration: 3000});
-$('#number3').jQuerySimpleCounter({end: 3,duration: 2000});
+$('#number3').jQuerySimpleCounter({end: 10,duration: 2000});
 $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
 
 

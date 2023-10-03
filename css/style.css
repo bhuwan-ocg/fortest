@@ -7956,7 +7956,7 @@ li {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 1px solid black;
+  border: 1px solid #1A6ABA;
   transition: all 200ms ease-out;
   position: fixed;
   pointer-events: none;
@@ -7973,7 +7973,7 @@ li {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  background-color: black;
+  background-color: #1A6ABA;
   opacity: .3;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -8312,6 +8312,8 @@ li {
 .header .logo {
   text-align: center;
   margin-top: 55px; }
+  .header .logo img {
+    height: 46px; }
   @media (max-width: 991px) {
     .header .logo {
       display: none; } }
@@ -9563,9 +9565,11 @@ li {
   width: 40%;
   align-items: center;
   justify-content: center; }
-  @media (max-width: 768px) {
-    .subscribe-title img {
-      display: none; } }
+  .subscribe-title img {
+    height: 46px; }
+    @media (max-width: 768px) {
+      .subscribe-title img {
+        display: none; } }
   @media (max-width: 1199px) {
     .subscribe-title {
       width: 75%; } }
@@ -9601,6 +9605,10 @@ li {
     .faq-wrap .sub-title {
       left: 27%; } }
 
+.projects .owl-item img {
+  height: 46px;
+  width: auto; }
+
 * {
   margin: 0;
   padding: 0;
@@ -9611,15 +9619,22 @@ li {
   @media (max-width: 767px) {
     .banner {
       padding-bottom: 39px; } }
-  .banner .owl-item .image img {
-    height: 700px;
-    object-fit: cover; }
-    @media (max-width: 768px) {
-      .banner .owl-item .image img {
-        height: 350px; } }
-    @media (max-width: 991px) {
-      .banner .owl-item .image img {
-        height: 465px; } }
+  .banner .owl-item .image {
+    position: relative; }
+    .banner .owl-item .image::after {
+      content: '';
+      position: absolute;
+      inset: 0 0;
+      background-color: rgba(3, 120, 216, 0.2); }
+    .banner .owl-item .image img {
+      height: 700px;
+      object-fit: cover; }
+      @media (max-width: 768px) {
+        .banner .owl-item .image img {
+          height: 350px; } }
+      @media (max-width: 991px) {
+        .banner .owl-item .image img {
+          height: 465px; } }
   .banner .caption {
     top: 50%;
     left: 50%;
@@ -9654,7 +9669,7 @@ li {
           font-size: 20px; } }
     .banner .caption .sub-title {
       border-radius: 6px;
-      background: rgba(3, 120, 216, 0.44);
+      background: rgba(3, 120, 216, 0.8);
       color: #fff;
       width: 35%;
       margin: 0 auto;
@@ -10269,6 +10284,10 @@ li {
   .pagination .page-link {
     margin-top: 20px;
     color: #0F3E6E; }
+
+.team .card img {
+  height: 383px;
+  object-fit: cover; }
 
 .team .card:hover .link-page {
   display: block;

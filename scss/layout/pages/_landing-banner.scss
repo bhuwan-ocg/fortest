@@ -10,6 +10,14 @@
 	}
 	.owl-item{
 	  .image{
+		position: relative;
+
+		&::after {
+			content: '';
+			position: absolute;
+			inset: 0 0;
+			background-color: rgba(3, 120, 216, 0.2);
+		}
 		img{
 			height: 700px;
 			object-fit: cover;
@@ -55,7 +63,7 @@
 	}
 	.sub-title{
 		border-radius: 6px;
-        background: rgba(3, 120, 216, 0.44);
+        background: rgba(3, 120, 216, 0.8);
         color: $white;
         width: 35%;
         margin: 0 auto;
