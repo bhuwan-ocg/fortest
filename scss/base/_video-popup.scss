@@ -15,6 +15,7 @@
   h3{
     color: $white;
     text-align: center;
+    padding-top: 30px!important;
   }
   img{
     width: 100%;
@@ -100,7 +101,7 @@
           opacity: 0;
           border-radius: 100%;
           left: 186px;
-          bottom: -6px;
+          bottom: 8px;
           z-index: -1;
 
           @media(max-width: 1024px){

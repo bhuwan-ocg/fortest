@@ -75,21 +75,17 @@
         @media(max-width: 1170px){
         	width: 45%;
         }
-      @media(max-width: 1170px){
-        	width: 55%;
-        }
+     
         @media(max-width: 991px){
-        	width: 65%;
+        	width: 40%;
         }
     @media(max-width: 767px){
-        	width: 70%;
+        	width: 60%;
         }
 
-    @media(max-width: 650px){
-        	width: 100%;
-        }
+    
         @media(max-width: 440px){
-        	width: 60%;
+        	width: 66%;
         }
 	}
 }
@@ -151,7 +147,7 @@
 		max-width: 100%;
 		height: auto;
 		width: 120px;
-		@media(max-width: 991px){
+		@media(max-width: 1170px){
 			display: none;
 		}
 	}
@@ -170,7 +166,7 @@
 		width: 250px;
 		max-width: 100%;
 		height: auto;
-		@media(max-width: 600px){
+		@media(max-width: 1170px){
 			display: none;
 		}
 	}
