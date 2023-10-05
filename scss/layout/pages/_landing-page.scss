@@ -733,8 +733,9 @@
     border-radius: 10px;
     position: absolute;
     bottom: -1px;
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
       width: 100%;
+      border-radius: 0 0 10px 10px;
     }
     h3 {
       line-height: 40px;
@@ -748,6 +749,10 @@
         height: 50px;
         left: 24px;
         bottom: 60px;
+
+        @media (max-width: 767px) {
+          width: 62px;
+        }
       }
     }
   }
@@ -1127,6 +1132,7 @@
   @media (max-width: 991px) {
     background: none;
     padding: 40px 0 40px;
+    text-align: center;
   }
   .bg-image {
     background: url(../images/call-image.jpg) no-repeat center right;
@@ -1179,7 +1185,7 @@
     justify-content: flex-end;
     @media (max-width: 991px) {
       margin-top: 10px;
-      justify-content: flex-start;
+      justify-content: center;
     }
   }
   .title-column {
@@ -1190,7 +1196,7 @@
       @media (max-width: 768px) {
         font-size: 1.5rem;
       }
-      @media (max-width: 767px) {
+      @media (max-width: 991px) {
         width: 100%;
       }
     }

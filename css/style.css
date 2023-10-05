@@ -8334,7 +8334,10 @@ li {
     align-items: center;
     width: 100%;
     padding: 10px; }
-  .page-header .open-mobile-menu, .page-header .close-mobile-menu {
+    .page-header .wrap img {
+      height: 46px; }
+  .page-header .open-mobile-menu,
+  .page-header .close-mobile-menu {
     border: 0;
     font-size: 30px;
     background: none; }
@@ -8379,8 +8382,10 @@ li {
       padding: 1.5rem 1.5rem;
       background: #fff;
       justify-content: flex-start;
-      background: #F4F7FC;
+      background: #f4f7fc;
       width: 90%; }
+      .page-header .navbar .top-menu .logo_top img {
+        height: 46px; }
       @media (max-width: 991px) {
         .page-header .navbar .top-menu {
           width: 68%; } }
@@ -8433,9 +8438,15 @@ li {
   background-size: cover;
   color: #fff;
   padding-top: 80px; }
+  @media (max-width: 991px) {
+    .footer {
+      text-align: center; } }
   .footer .title {
     text-align: left;
     width: 100%; }
+    @media (max-width: 991px) {
+      .footer .title {
+        text-align: center; } }
   .footer .sub-title {
     top: 27px; }
     .footer .sub-title:before {
@@ -9086,9 +9097,10 @@ li {
     border-radius: 10px;
     position: absolute;
     bottom: -1px; }
-    @media (max-width: 480px) {
+    @media (max-width: 767px) {
       .faq-image .content-text {
-        width: 100%; } }
+        width: 100%;
+        border-radius: 0 0 10px 10px; } }
     .faq-image .content-text h3 {
       line-height: 40px;
       padding-left: 35px; }
@@ -9101,6 +9113,9 @@ li {
         height: 50px;
         left: 24px;
         bottom: 60px; }
+        @media (max-width: 767px) {
+          .faq-image .content-text h3:after {
+            width: 62px; } }
 
 .team .team-wrap {
   position: relative; }
@@ -9420,7 +9435,8 @@ li {
   @media (max-width: 991px) {
     .call-to-action-three {
       background: none;
-      padding: 40px 0 40px; } }
+      padding: 40px 0 40px;
+      text-align: center; } }
   .call-to-action-three .bg-image {
     background: url(../images/call-image.jpg) no-repeat center right;
     background-size: cover;
@@ -9469,7 +9485,7 @@ li {
     @media (max-width: 991px) {
       .call-to-action-three .more-bottom {
         margin-top: 10px;
-        justify-content: flex-start; } }
+        justify-content: center; } }
   .call-to-action-three .title-column {
     color: #fff; }
     .call-to-action-three .title-column h2 {
@@ -9478,7 +9494,7 @@ li {
       @media (max-width: 768px) {
         .call-to-action-three .title-column h2 {
           font-size: 1.5rem; } }
-      @media (max-width: 767px) {
+      @media (max-width: 991px) {
         .call-to-action-three .title-column h2 {
           width: 100%; } }
     .call-to-action-three .title-column p {
@@ -9645,7 +9661,7 @@ li {
     margin: 0 auto; }
     @media (max-width: 1760px) {
       .banner .caption {
-        width: 47%; } }
+        width: 70%; } }
     @media (max-width: 575px) {
       .banner .caption {
         width: 100%; } }
@@ -9692,7 +9708,7 @@ li {
           width: 70%; } }
       @media (max-width: 650px) {
         .banner .caption .sub-title {
-          width: 50%; } }
+          width: 100%; } }
       @media (max-width: 440px) {
         .banner .caption .sub-title {
           width: 60%; } }
