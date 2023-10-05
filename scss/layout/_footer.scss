@@ -4,9 +4,17 @@
 	color: $white;
 	padding-top: 80px;
 
+	@media (max-width: 991px) {
+		text-align: center;
+	}
+
 	.title{
 		text-align: left;
 		width: 100%;
+
+		@media (max-width: 991px) {
+			text-align: center;
+		}
 	}
 	.sub-title{
 		top:27px;
