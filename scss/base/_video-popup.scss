@@ -37,6 +37,11 @@
     margin-left: -30%;
     top: 24%;
     background-color: #fff;
+     @media(max-width: 991px){
+      width: 98%;
+      margin-left: 0;
+      left: 0
+    }
     @media(max-width: 767px){
       top:34%;
     }
@@ -57,6 +62,9 @@
     background-color: #000;
     line-height: 25px;
     color: #fff;
+    @media(max-width: 991px){
+      right:4px;
+    }
   }
   
   #video-popup-iframe-container {
