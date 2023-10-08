@@ -140,6 +140,7 @@
 	       top: 56%;
 	      -webkit-animation: simple-move 2s 2s linear infinite alternate;
           animation: simple-move 2s 2s linear infinite alternate;
+		  display:none;
           @media(max-width: 1440px){
           	left: 22%;
           }
@@ -161,6 +162,7 @@
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
     transition: all 0.35s ease-in-out;
+	display:none;
     
 	img{
 		width: 250px;

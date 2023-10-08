@@ -60,7 +60,7 @@
 	img{
 		width: auto;
 		border-radius: 6px;
-		width: 130px;
+	
 	}
 	.card{
 		border-radius: 0px 0px 4px 4px;
@@ -71,6 +71,7 @@
 		display: flex;
 		gap:20px;
 		box-shadow:none;
+		align-items: center;
 		h5{
 			font-family: 'Roboto', sans-serif;
 			font-size: 18px;
@@ -81,6 +82,9 @@
 				color: $praraph;
 			}
 		}
+	figure{
+		width: 25%;
+	}	
 	}
 }
 .tags{
