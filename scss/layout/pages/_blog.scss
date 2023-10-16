@@ -60,6 +60,10 @@
 	img{
 		width: auto;
 		border-radius: 6px;
+		@media(max-width: 480px){
+			width: 100%;
+			max-width: 100%;;
+		}
 	
 	}
 	.card{

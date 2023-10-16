@@ -11072,6 +11072,10 @@ li {
 .single--blog .latest-news img {
   width: auto;
   border-radius: 6px; }
+  @media (max-width: 480px) {
+    .single--blog .latest-news img {
+      width: 100%;
+      max-width: 100%; } }
 .single--blog .latest-news .card {
   border-radius: 0px 0px 4px 4px;
   background: var(--White, #FFF);
@@ -11206,8 +11210,6 @@ li {
   padding: 70px 20px;
   text-align: center;
   margin-bottom: 40px; }
-  .projects-wrap .card img {
-    width: auto; }
 .projects-wrap .content-text {
   box-shadow: 0px 0px 4px 0px rgba(174, 168, 168, 0.25);
   border-radius: 17px;
@@ -11215,6 +11217,11 @@ li {
   background: #fff;
   padding: 20px 20px;
   margin-top: 20px; }
+.projects-wrap .card-image img {
+  width: 50%; }
+  @media (max-width: 991px) {
+    .projects-wrap .card-image img {
+      width: auto; } }
 
 .list-project-ensure li {
   list-style: none;
