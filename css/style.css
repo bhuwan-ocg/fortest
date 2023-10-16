@@ -9656,7 +9656,7 @@ li {
     z-index: 9999;
     left: 0;
     bottom: -12%; }
-    @media (max-width: 600px) {
+    @media (max-width: 767px) {
       .offer .owl-theme .owl-nav.disabled + .owl-dots {
         display: none; } }
   .offer .owl-theme .owl-dots .owl-dot.active span {
@@ -10195,6 +10195,10 @@ li {
   @media (max-width: 991px) {
     .team .owl-carousel .owl-nav button.owl-next {
       left: 9%;
+      bottom: -53px; } }
+  @media (max-width: 480px) {
+    .team .owl-carousel .owl-nav button.owl-next {
+      left: 16%;
       bottom: -53px; } }
 
 /*--------------------------------------------------------------

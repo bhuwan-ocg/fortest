@@ -255,7 +255,7 @@ $('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
         items: 3,
       },
       767: {
-        items: 2,
+        items: 1,
       },
       0: {
         items: 1,
