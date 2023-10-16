@@ -10095,6 +10095,9 @@ li {
     width: 100%;
     transition: all 0.5s;
     transform: scale(1); }
+    @media (max-width: 767px) {
+      .faq-image img {
+        display: none; } }
     .faq-image img:hover {
       transform: scale(1.07); }
   .faq-image .content-text {

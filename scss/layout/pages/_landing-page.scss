@@ -740,6 +740,9 @@
     width: 100%;
     transition: all 0.5s;
     transform: scale(1);
+    @media(max-width:767px){
+      display: none;
+    }
     &:hover {
       transform: scale(1.07);
     }
